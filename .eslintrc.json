@@ -1,6 +1,15 @@
 {
-    "extends": "airbnb-base",
-    "plugins": [
-        "import"
-    ]
+  "extends": "airbnb-base",
+  "plugins": [
+    "import"
+  ],
+  "globals": {
+    "describe": "writable",
+    "it": "writable",
+    "beforeEach": "writable",
+    "afterEach": "writable",
+    "context": "writable",
+    "expect": "writable",
+    "document": "writable"
+  }
 }
