@@ -7,10 +7,12 @@ describe('Spotify', () => {
   });
 
   it('should have search method', () => {
+    // eslint-disable-next-line no-unused-expressions
     expect(spotify.search).to.exist;
   });
 
   it('should have album method', () => {
+    // eslint-disable-next-line no-unused-expressions
     expect(spotify.album).to.exist;
   });
 });
