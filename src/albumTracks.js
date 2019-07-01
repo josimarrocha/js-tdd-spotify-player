@@ -11,5 +11,6 @@ function createMarkup(tracks) {
 
 export default function renderAlbumTracks(data, element) {
   const markup = createMarkup(data);
+  // eslint-disable-next-line no-param-reassign
   element.innerHTML = markup;
 }
