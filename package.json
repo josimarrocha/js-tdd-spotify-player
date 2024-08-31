@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "spotify-wrapper": "^2.1.0",
-    "webpack": "^4.33.0",
+    "webpack": "^5.94.0",
     "webpack-dev-server": "^3.7.1"
   }
 }
